@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    position: relative;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+h1::after {
+    content: "";
+    width: 5rem;
+    height: 0rem;
+    border: 3px solid #FDC40A;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+
+/* Map Section */
+
+.map {
+    width: 50%;
+    position: relative;
+}
+
+.main-map {
+    width: 100%;
+}
+
+.main-map img {
+    width: 100%;
+}
+
+.map-points {
+    position: absolute;
+    top: 0rem;
+    left: 11rem;
+    border: 3px solid rebeccapurple;
+    padding: 2rem;
+}
+
+.alex {
+    position: absolute;
+    top: 0rem;
+    left: 11rem;
+    border: 3px solid rebeccapurple;
+    padding: 2rem;
+}
+
+.aswan {
+    position: absolute;
+    top: 14rem;
+    left: 18rem;
+    border: 3px solid rebeccapurple;
+    padding: 2rem;
+}
+
+
+/* Card section */
+
+.card {
+    position: relative;
+}
+
+.place-desc {
+    position: absolute;
+    bottom: 8rem;
+    left: 1.5rem;
+}
+
+.place-desc h3 {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.place-desc p {
+    color: #FFF;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    font-weight: 200;
+}
+
+.place-weather {
+    position: absolute;
+    right: 1.25rem;
+    bottom: -35px;
+    color: #FFF;
+}
